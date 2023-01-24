@@ -1,5 +1,4 @@
 {
-    "name": "sobrado.cardapio",
     "version": 2,
     "public": true,
     "build":{
@@ -9,7 +8,7 @@
     "routes":[
         {
             "src": "/(.*)",
-            "dest": "api/index.js"
+            "dest": "/"
         }
     ]
 }
