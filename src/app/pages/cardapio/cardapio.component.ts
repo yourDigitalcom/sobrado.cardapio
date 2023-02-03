@@ -36,6 +36,7 @@ export class CardapioComponent implements OnInit {
       description: 'Heineken 330ml',
       value: 1340.32
     }
+
   ];
 
   public valueTesteMoeda: number = 100.30;
@@ -49,6 +50,7 @@ export class CardapioComponent implements OnInit {
 
   public receiverClick(product: string): void {
     const route = product;
+    const teste = 'teste';
     this.util.goToPage(route);
   }
 
