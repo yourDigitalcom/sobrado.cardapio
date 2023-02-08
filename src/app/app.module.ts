@@ -19,6 +19,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardItemComponent } from './components/card-item/card-item.component';
 import ptBr from '@angular/common/locales/pt';
 import { AppComponent } from './app.component';
+import { CardItemExtendComponent } from './components/card-item-extend/card-item-extend.component';
+import { HeaderMenuComponent } from './components/header-menu/header-menu.component';
+import { CardMenuComponent } from './components/card-menu/card-menu.component';
 
 export const CustomCurrencyMaskConfig: CurrencyMaskConfig = {
   align: "right",
@@ -40,7 +43,10 @@ registerLocaleData(ptBr);
     CardapioComponent,
     CervejasComponent,
     NavbarComponent,
-    CardItemComponent
+    CardItemComponent,
+    CardItemExtendComponent,
+    HeaderMenuComponent,
+    CardMenuComponent
   ],
   imports: [
     BrowserAnimationsModule,

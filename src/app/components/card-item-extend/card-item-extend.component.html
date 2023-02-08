@@ -1,0 +1,9 @@
+<div *ngIf="item" class="card shadow rounded h-100" [style.width.px]="155" [style.max-width.px]="185" [style.min-width.px]="155">
+    <img [style.width.px]="150" [src]="item.img" class="card-img-top" alt="...">
+    <div class="card-body border-top">
+        <p class="card-title-description" [style.color]="'#6c757d'"> {{ item.description }} </p>
+        <h6>
+            {{ item.value | currency:'BRL':'symbol'}}
+        </h6>
+    </div>
+</div>

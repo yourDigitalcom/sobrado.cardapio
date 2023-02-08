@@ -1,0 +1,21 @@
+.header-menu-container {
+    height: 80px;
+    background-color: #000;
+    position: sticky;
+    top: 0px;
+    z-index: 1001;
+}
+
+.img-menu {
+    position: relative;
+    width: 140px;
+}
+
+/* .sticky {
+    height: 50px;
+    transition: 0.5s ease;
+}
+
+.sticky img {
+    width: 80px;
+} */

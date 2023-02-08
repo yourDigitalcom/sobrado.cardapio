@@ -24,18 +24,23 @@ export class CardapioComponent implements OnInit {
     {
       img: '/assets/images/cervejas/corona-330.jpg',
       description: 'Cerveja Corona Extra 330ml',
-      value: 1340.32
+      value: 15
     },
     {
       img: '/assets/images/cervejas/stella-330.jpg',
       description: 'Stella Artois 330ml',
-      value: 1340.32
+      value: 15
     },
     {
       img: '/assets/images/cervejas/heineken-330.jpg',
       description: 'Heineken 330ml',
-      value: 1340.32
-    }
+      value: 15
+    },
+    {
+      img: '/assets/images/cervejas/budweiser-330.png',
+      description: 'Budweiser 330ml',
+      value: 15
+    },
 
   ];
 
