@@ -99,7 +99,137 @@ export class CardapioComponent implements OnInit {
           value: 15
         },
       ]
-    }
+    },
+    {
+      menu: 'Drinks',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Rosh',
+          value: 15
+        },
+      ]
+    },
+    {
+      menu: 'Whiskys',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Rosh',
+          value: 15
+        },
+      ]
+    },
+    {
+      menu: 'Vodkas',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Rosh',
+          value: 15
+        },
+      ]
+    },
+    {
+      menu: 'Gins',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Rosh',
+          value: 15
+        },
+      ]
+    },
+    {
+      menu: 'Não alcoólicos',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Rosh',
+          value: 15
+        },
+      ]
+    },
   ]
 
   public listItems: Array<CardItem>;
