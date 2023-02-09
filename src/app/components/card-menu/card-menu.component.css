@@ -1,3 +1,18 @@
 .card-description {
     font-size: 14px;
+    color: #6c757d;
+}
+
+.card-menu-container {
+    justify-content: space-between;
+}
+
+.card-menu-content {
+    cursor: pointer;
+}
+
+.card-selected {
+    border-color: black;
+    font-weight: bold;
+    color: black;
 }

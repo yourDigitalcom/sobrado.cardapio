@@ -1,9 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { CardItem } from '../card-item/card-item.component';
 
-export class CardItem {
-  public img: string;
-  public description: string;
-  public value: number;
+export class CardMenu {
+  public menu: string;
+  public selected: boolean;
+  public itens: Array<CardItem>;
 }
 
 @Component({
@@ -14,14 +15,28 @@ export class CardItem {
 
 export class CardMenuComponent {
 
-  private _item: CardItem;
+  private _listMenu: Array<CardMenu>;
 
-  @Input() public set item(value: CardItem) {
-    this._item = value;
+  @Output() public menuSelected: EventEmitter<Array<CardItem>> = new EventEmitter();
+
+  @Input() public set listMenu(value: Array<CardMenu>) {
+    this.menuSelected.emit(value[0].itens);
+    this._listMenu = value;
   }
 
-  public get item(): CardItem {
-    return this._item;
+  public get listMenu(): Array<CardMenu> {
+    return this._listMenu;
+  }
+
+  public selectCard(index: number): void {
+    this.listMenu.forEach((card, i) => {
+      card.selected = i === index ? true : false;
+    });
+    this.menuSelected.emit(this.listMenu[index].itens);
+  }
+
+  public selectedCard(index: number): boolean {
+    return this.listMenu[index].selected;
   }
 
 }

@@ -5,7 +5,7 @@
     </div> -->
 
     <div class="col my-2">
-        <card-menu></card-menu>
+        <card-menu [listMenu]="listMenu" (menuSelected)="menuSelected($event)"></card-menu>
     </div>
     <!-- <div class="row col-12 p-0 m-0">
         <div *ngFor="let card of list" class="col-6 m-0 p-2">

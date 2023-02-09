@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CardMenu } from '../../components/card-menu/card-menu.component';
 import { CardItem } from '../../components/card-item/card-item.component';
 import { UtilService } from '../../services/utils/util.service';
 
@@ -20,29 +21,88 @@ export class CardapioComponent implements OnInit {
     {name:'Cooler', route:'cooler'},
   ];
 
-  public listItems: Array<CardItem> = [
+  public listMenu: Array<CardMenu> = [
     {
-      img: '/assets/images/cervejas/corona-330.jpg',
-      description: 'Cerveja Corona Extra 330ml',
-      value: 15
+      menu: 'Sessão Rosh',
+      selected: true,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Rosh',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Rosh',
+          value: 15
+        },
+      ]
     },
     {
-      img: '/assets/images/cervejas/stella-330.jpg',
-      description: 'Stella Artois 330ml',
-      value: 15
+      menu: 'Cervejas',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Cerveja Corona Extra 330ml',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Stella Artois 330ml',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Heineken 330ml',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Budweiser 330ml',
+          value: 15
+        },
+      ]
     },
     {
-      img: '/assets/images/cervejas/heineken-330.jpg',
-      description: 'Heineken 330ml',
-      value: 15
-    },
-    {
-      img: '/assets/images/cervejas/budweiser-330.png',
-      description: 'Budweiser 330ml',
-      value: 15
-    },
+      menu: 'Refrigerantes',
+      selected: false,
+      itens: [
+        {
+          img: '/assets/images/cervejas/corona-330.jpg',
+          description: 'Cerveja Corona Extra 330ml',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/stella-330.jpg',
+          description: 'Stella Artois 330ml',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/heineken-330.jpg',
+          description: 'Heineken 330ml',
+          value: 15
+        },
+        {
+          img: '/assets/images/cervejas/budweiser-330.png',
+          description: 'Budweiser 330ml',
+          value: 15
+        },
+      ]
+    }
+  ]
 
-  ];
+  public listItems: Array<CardItem>;
 
   public valueTesteMoeda: number = 100.30;
 
@@ -57,6 +117,10 @@ export class CardapioComponent implements OnInit {
     const route = product;
     const teste = 'teste';
     this.util.goToPage(route);
+  }
+
+  public menuSelected(items: Array<CardItem>): void {
+    this.listItems = items;
   }
 
 }
