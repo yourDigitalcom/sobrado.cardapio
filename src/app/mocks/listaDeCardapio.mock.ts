@@ -225,6 +225,22 @@ export const listaCardapios = [
         ],
     },
     {
+        "menu": "Drinks Prontos",
+        "selected": false,
+        "itens": [
+            {
+                "img": "/assets/images/cardapio/smirnoff-ice.png",
+                "description": "Vodka Sminorff Ice Limão Garrafa 275 ml",
+                "value": 15
+            },
+            {
+                "img": "/assets/images/cardapio/skol-beats.png",
+                "description": "SKOL BEATS Senses 269ml",
+                "value": 15
+            },
+        ]
+    },
+    {
         "menu": "Não Alcoólicos",
         "selected": false,
         "itens": [
