@@ -27,7 +27,8 @@
 
     <div class="d-flex flex-wrap col">
         <div *ngFor="let item of listItems" class="m-2">
-            <card-item [item]="item"></card-item>
+            <card-item-extend *ngIf="item.title" [item]="item"></card-item-extend>
+            <card-item *ngIf="!item.title" [item]="item"></card-item>
         </div>
     </div>
 </div>
