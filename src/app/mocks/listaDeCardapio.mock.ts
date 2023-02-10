@@ -266,6 +266,4 @@ export const listaCardapios = [
             },
         ]
     }
-
-
 ]
