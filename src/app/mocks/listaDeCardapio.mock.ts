@@ -78,6 +78,24 @@ export const listaCardapios = [
         ]
     },
     {
+        "menu": "Drinks",
+        "selected": false,
+        "itens": [
+            {
+                "img": "/assets/images/cardapio/varios-gin-taca.png",
+                "title": "Taças de Gin",
+                "description": "Tropical - Melancia - Morango - Tônica",
+                "value": 40
+            },
+            {
+                "img": "/assets/images/cardapio/caipirinha-varias.png",
+                "title": "Caipirinhas",
+                "description": "Morango - Abacaxi - Kiwi - Limão - Melancia",
+                "value": 30
+            },
+        ]
+    },
+    {
         "menu": "Garrafas",
         "selected": false,
         "itens": [
