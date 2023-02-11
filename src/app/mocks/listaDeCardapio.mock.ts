@@ -210,7 +210,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels.png",
                 "description": "Combo Jack Daniels",
-                "value": 380
+                "value": 320
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-jack-daniels-maca.png",
@@ -220,7 +220,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels-mel.JPG",
                 "description": "Combo Jack Daniels Mel ",
-                "value": 380
+                "value": 320
             },
         ],
     },
