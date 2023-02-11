@@ -57,22 +57,22 @@ export const listaCardapios = [
             },
             {
                 "img": "/assets/images/cervejas/corona-330.jpg",
-                "description": "Balde Cerveja Corona Extra 330ml 5 UN.",
+                "description": "Balde Cerveja Corona Extra 330ml 6 UN.",
                 "value": 75
             },
             {
                 "img": "/assets/images/cervejas/heineken-330.jpg",
-                "description": "Balde Heineken 330ml 5 UN.",
+                "description": "Balde Heineken 330ml 6 UN.",
                 "value": 75
             },
             {
                 "img": "/assets/images/cervejas/stella-330.jpg",
-                "description": "Balde Stella Artois 330ml 5 UN.",
+                "description": "Balde Stella Artois 330ml 6 UN.",
                 "value": 75
             },
             {
                 "img": "/assets/images/cervejas/budweiser-330.png",
-                "description": "Balde Budweiser 330ml 5 UN.",
+                "description": "Balde Budweiser 330ml 6 UN.",
                 "value": 75
             },
         ]
@@ -109,7 +109,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-gold-label-1l.JPG",
                 "description": "Garrafa Gold Label",
-                "value": 320
+                "value": 350
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-blue-label.png",
@@ -124,7 +124,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels.png",
                 "description": "Garrafa Jack Daniels",
-                "value": 310
+                "value": 300
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-jack-daniels-maca.png",
@@ -134,7 +134,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels-mel.JPG",
                 "description": "Garrafa Jack Daniels Mel",
-                "value": 320
+                "value": 190
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-ciroc.PNG",
@@ -210,7 +210,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels.png",
                 "description": "Combo Jack Daniels",
-                "value": 400
+                "value": 380
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-jack-daniels-maca.png",
@@ -220,7 +220,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels-mel.JPG",
                 "description": "Combo Jack Daniels Mel ",
-                "value": 420
+                "value": 380
             },
         ],
     },
