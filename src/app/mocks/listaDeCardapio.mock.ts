@@ -247,13 +247,39 @@ export const listaCardapios = [
         "selected": false,
         "itens": [
             {
-                "img": "/assets/images/cardapio/smirnoff-ice.png",
+                "img": "/assets/images/cardapio/smirnoff-ice-3.png",
                 "description": "Vodka Sminorff Ice Limão Garrafa 275 ml",
                 "value": 15
             },
             {
                 "img": "/assets/images/cardapio/skol-beats.png",
                 "description": "SKOL BEATS Senses 269ml",
+                "value": 15
+            },
+        ]
+    },
+    {
+        "menu": "Refrigerantes",
+        "selected": false,
+        "itens": [
+            {
+                "img": "/assets/images/cardapio/coca-lata.png",
+                "description": "Coca Cola 350ml",
+                "value": 15
+            },
+            {
+                "img": "/assets/images/cardapio/guarana-lata.png",
+                "description": "Guaraná Antarctica 350ml",
+                "value": 15
+            },
+            {
+                "img": "/assets/images/cardapio/fanta-uva.png",
+                "description": "Fanta Uva 350ml",
+                "value": 15
+            },
+            {
+                "img": "/assets/images/cardapio/fanta-laranja.png",
+                "description": "Fanta Laranja 350ml",
                 "value": 15
             },
         ]
