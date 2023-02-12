@@ -256,6 +256,11 @@ export const listaCardapios = [
                 "description": "SKOL BEATS Senses 269ml",
                 "value": 15
             },
+            {
+                "img": "/assets/images/cardapio/garrafa-draft.png",
+                "description": "Chopp de Vinho Draft 600ml",
+                "value": 25
+            },
         ]
     },
     {
@@ -265,22 +270,22 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/coca-lata.png",
                 "description": "Coca Cola 350ml",
-                "value": 15
+                "value": 6.5
             },
             {
                 "img": "/assets/images/cardapio/guarana-lata.png",
                 "description": "Guaraná Antarctica 350ml",
-                "value": 15
+                "value": 6.5
             },
             {
                 "img": "/assets/images/cardapio/fanta-uva.png",
                 "description": "Fanta Uva 350ml",
-                "value": 15
+                "value": 6.5
             },
             {
                 "img": "/assets/images/cardapio/fanta-laranja.png",
                 "description": "Fanta Laranja 350ml",
-                "value": 15
+                "value": 6.5
             },
         ]
     },
