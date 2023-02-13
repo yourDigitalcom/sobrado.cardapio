@@ -117,17 +117,27 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-black-label.png",
                 "description": "Garrafa Black Label",
+                "value": 290
+            },
+            {
+                "img": "/assets/images/cardapio/garrafa-buchanans.png",
+                "description": "Garrafa Buchanans",
+                "value": 390
+            },
+            {
+                "img": "/assets/images/cardapio/garrafa-old-parr.png",
+                "description": "Garrafa Old Parr",
                 "value": 250
             },
             {
                 "img": "/assets/images/cardapio/garrafa-red-label.png",
                 "description": "Garrafa Red Label",
-                "value": 190
+                "value": 170
             },
             {
                 "img": "/assets/images/cardapio/garrafa-gold-label-1l.JPG",
                 "description": "Garrafa Gold Label",
-                "value": 350
+                "value": 400
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-blue-label.png",
@@ -142,7 +152,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels.png",
                 "description": "Garrafa Jack Daniels",
-                "value": 300
+                "value": 280
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-jack-daniels-maca.png",
@@ -152,7 +162,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels-mel.JPG",
                 "description": "Garrafa Jack Daniels Mel",
-                "value": 190
+                "value": 390
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-ciroc.PNG",
@@ -162,7 +172,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-ciroc-red.PNG",
                 "description": "Garrafa Ciroc Red Berry",
-                "value": 320
+                "value": 300
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-ciroc-pineapple.PNG",
