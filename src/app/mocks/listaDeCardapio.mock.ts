@@ -114,11 +114,7 @@ export const listaCardapios = [
             //     "description": "Garrafa Bombay",
             //     "value": 200
             // },
-            {
-                "img": "/assets/images/cardapio/garrafa-black-label.png",
-                "description": "Garrafa Black Label",
-                "value": 290
-            },
+            
             {
                 "img": "/assets/images/cardapio/garrafa-buchanans.png",
                 "description": "Garrafa Buchanans",
@@ -133,6 +129,11 @@ export const listaCardapios = [
                 "img": "/assets/images/cardapio/garrafa-red-label.png",
                 "description": "Garrafa Red Label",
                 "value": 170
+            },
+            {
+                "img": "/assets/images/cardapio/garrafa-black-label.png",
+                "description": "Garrafa Black Label",
+                "value": 290
             },
             {
                 "img": "/assets/images/cardapio/garrafa-gold-label-1l.JPG",
@@ -186,19 +187,34 @@ export const listaCardapios = [
         "selected": false,
         "itens": [
             {
+                "img": "/assets/images/cardapio/garrafa-tanqueray.png",
+                "description": "Combo Tanqueray",
+                "value": 300
+            },
+            {
+                "img": "/assets/images/cardapio/garrafa-buchanans.png",
+                "description": "Combo Buchanans",
+                "value": 420
+            },
+            {
+                "img": "/assets/images/cardapio/garrafa-old-parr.png",
+                "description": "Combo Old Parr",
+                "value": 310
+            },
+            {
                 "img": "/assets/images/cardapio/garrafa-red-label.png",
                 "description": "Combo Red Label",
-                "value": 250
+                "value": 240
             },
             {
                 "img": "/assets/images/cardapio/garrafa-black-label.png",
                 "description": "Combo Black Label",
-                "value": 320
+                "value": 350
             },
             {
                 "img": "/assets/images/cardapio/garrafa-gold-label-1l.JPG",
                 "description": "Combo Gold Label",
-                "value": 500
+                "value": 460
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-blue-label.png",
@@ -210,11 +226,7 @@ export const listaCardapios = [
             //     "description": "Combo Royal Salute",
             //     "value": 1600
             // },
-            {
-                "img": "/assets/images/cardapio/garrafa-tanqueray.png",
-                "description": "Combo Tanqueray",
-                "value": 300
-            },
+            
             // {
             //     "img": "/assets/images/cardapio/garrafa-bombay.png",
             //     "description": "Combo Bombay",
@@ -228,7 +240,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-ciroc-red.PNG",
                 "description": "Combo Ciroc Red Berry",
-                "value": 340
+                "value": 350
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-ciroc-pineapple.PNG",
@@ -238,7 +250,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-jack-daniels.png",
                 "description": "Combo Jack Daniels",
-                "value": 320
+                "value": 310
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-jack-daniels-maca.png",
