@@ -53,7 +53,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cervejas/budweiser-330.png",
                 "description": "Budweiser 330ml UN.",
-                "value": 15
+                "value": 12
             },
             {
                 "img": "/assets/images/cervejas/corona-330.jpg",
@@ -73,7 +73,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cervejas/budweiser-330.png",
                 "description": "Balde Budweiser 330ml 6 UN.",
-                "value": 75
+                "value": 60
             },
         ]
     },
@@ -107,7 +107,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/garrafa-tanqueray.png",
                 "description": "Garrafa Tanqueray",
-                "value": 230
+                "value": 200
             },
             // {
             //     "img": "/assets/images/cardapio/garrafa-bombay.png",
