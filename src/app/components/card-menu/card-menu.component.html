@@ -1,12 +1,14 @@
 <div *ngIf="listMenu" class="card-menu-container row p-0 m-0">
-    <div *ngFor="let item of listMenu; let i = index" class="card card-menu-content col-6 px-0 my-1"
-        [ngClass]="{'card-selected': selectedCard(i)}" (click)="selectCard(i)">
-        <div class="text-center d-flex">
-            <!-- <div class="col p-0">
-                <img src="/assets/images/narguile/narguile-transparente.png" alt="" [style.width.px]="100">
-            </div> -->
-            <div class="col py-2 align-self-center">
-                <p class="card-description m-0" [ngClass]="{'card-selected': selectedCard(i)}"> {{item.menu}} </p>
+    <div class="col-6 px-0" *ngFor="let item of listMenu; let i = index">
+        <div class="card card-menu-content m-1"
+            [ngClass]="{'card-selected': selectedCard(i)}" (click)="selectCard(i)">
+            <div class="text-center d-flex">
+                <!-- <div class="col p-0">
+                    <img src="/assets/images/narguile/narguile-transparente.png" alt="" [style.width.px]="100">
+                </div> -->
+                <div class="col py-2 align-self-center">
+                    <p class="card-description m-0" [ngClass]="{'card-selected': selectedCard(i)}"> {{item.menu}} </p>
+                </div>
             </div>
         </div>
     </div>

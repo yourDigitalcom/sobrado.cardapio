@@ -35,43 +35,43 @@ export const listaCardapios = [
         "selected": false,
         "itens": [
             {
-                "img": "/assets/images/cervejas/corona-330.jpg",
+                "img": "/assets/images/cardapio/cervejas/cerveja-corona-330.jpeg",
                 "description": "Cerveja Corona Extra 330ml UN.",
                 "value": 15
             },
 
             {
-                "img": "/assets/images/cervejas/stella-330.jpg",
+                "img": "/assets/images/cardapio/cervejas/cerveja-stella-330.jpeg",
                 "description": "Stella Artois 330ml UN.",
                 "value": 15
             },
             {
-                "img": "/assets/images/cervejas/heineken-330.jpg",
+                "img": "/assets/images/cardapio/cervejas/cerveja-heineken-330.jpeg",
                 "description": "Heineken 330ml UN.",
                 "value": 15
             },
             {
-                "img": "/assets/images/cervejas/budweiser-330.png",
+                "img": "/assets/images/cardapio/cervejas/cerveja-bud-330.jpeg",
                 "description": "Budweiser 330ml UN.",
                 "value": 12
             },
             {
-                "img": "/assets/images/cervejas/corona-330.jpg",
+                "img": "/assets/images/cardapio/cervejas/balde-corona.png",
                 "description": "Balde Cerveja Corona Extra 330ml 6 UN.",
                 "value": 75
             },
             {
-                "img": "/assets/images/cervejas/heineken-330.jpg",
+                "img": "/assets/images/cardapio/cervejas/balde-heineken.png",
                 "description": "Balde Heineken 330ml 6 UN.",
                 "value": 75
             },
             {
-                "img": "/assets/images/cervejas/stella-330.jpg",
+                "img": "/assets/images/cardapio/cervejas/balde-stella.jpeg",
                 "description": "Balde Stella Artois 330ml 6 UN.",
                 "value": 75
             },
             {
-                "img": "/assets/images/cervejas/budweiser-330.png",
+                "img": "/assets/images/cardapio/cervejas/balde-bud.jpeg",
                 "description": "Balde Budweiser 330ml 6 UN.",
                 "value": 60
             },
@@ -265,6 +265,27 @@ export const listaCardapios = [
         ],
     },
     {
+        "menu": "Doses",
+        "selected": false,
+        "itens": [
+            {
+                "img": "/assets/images/cardapio/doses/dose-red-label.jpeg",
+                "description": "Dose Red Label",
+                "value": 25
+            },
+            {
+                "img": "/assets/images/cardapio/doses/dose-black-label.jpeg",
+                "description": "Dose Red Label",
+                "value": 25
+            },
+            {
+                "img": "/assets/images/cardapio/doses/dose-jack-daniels.jpeg",
+                "description": "Dose Black Label",
+                "value": 25
+            },
+        ]
+    },
+    {
         "menu": "Drinks Prontos",
         "selected": false,
         "itens": [
@@ -334,6 +355,18 @@ export const listaCardapios = [
                 "img": "/assets/images/cardapio/red-bull-tropical.png",
                 "description": "Red Bull Melancia",
                 "value": 15
+            },
+        ]
+    },
+    {
+        "menu": "Comidas",
+        "selected": false,
+        "itens": [
+            {
+                "img": "/assets/images/cardapio/comidas/mini-hamburguer.jpeg",
+                "title": "Mini Hamburguer",
+                "description": "1 Salad 1 Picles, 1 Clássico, 1 Kids",
+                "value": 40
             },
         ]
     }
