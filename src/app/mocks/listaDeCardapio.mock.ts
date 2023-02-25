@@ -7,7 +7,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/marca-ziggy.png",
                 "title": "Essência Ziggy",
-                "description": "Tropical - Banana Tropical - Morango Laranja - Frutti - Melancia - Uva",
+                "description": "Tropical - Banana Tropical - Morango Laranja - Frutti - Melancia - Uva - 7 Belo - Manga",
                 "value": 40
             },
             {
