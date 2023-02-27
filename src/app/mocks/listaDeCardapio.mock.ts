@@ -275,13 +275,13 @@ export const listaCardapios = [
             },
             {
                 "img": "/assets/images/cardapio/doses/dose-black-label.jpeg",
-                "description": "Dose Red Label",
-                "value": 25
+                "description": "Dose Black Label",
+                "value": 35
             },
             {
                 "img": "/assets/images/cardapio/doses/dose-jack-daniels.jpeg",
-                "description": "Dose Black Label",
-                "value": 25
+                "description": "Dose Jack Daniel's",
+                "value": 35
             },
         ]
     },
