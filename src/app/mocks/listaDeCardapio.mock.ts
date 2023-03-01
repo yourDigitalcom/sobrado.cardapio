@@ -338,7 +338,12 @@ export const listaCardapios = [
         "itens": [
             {
                 "img": "/assets/images/cardapio/agua-mineral.png",
-                "description": "Água",
+                "description": "Água sem gás",
+                "value": 5
+            },
+            {
+                "img": "/assets/images/cardapio/agua-mineral.png",
+                "description": "Água com gás",
                 "value": 5
             },
             {
@@ -356,6 +361,11 @@ export const listaCardapios = [
                 "description": "Red Bull Melancia",
                 "value": 15
             },
+            {
+                "img": "/assets/images/cardapio/tonica.png",
+                "description": "Água Tônica",
+                "value": 6.50
+            }
         ]
     },
     {
