@@ -25,10 +25,10 @@
 
 
 
-    <div class="d-flex flex-wrap col">
-        <div *ngFor="let item of listItems" class="m-2">
-            <card-item-extend *ngIf="item.title" [item]="item"></card-item-extend>
-            <card-item *ngIf="!item.title" [item]="item"></card-item>
+    <div class="d-flex flex-wrap col-12 p-2">
+        <div *ngFor="let item of listItems" class="" [ngClass]="{ 'w-100 pb-3 px-2': item.title, 'col-6 p-2': !item.title }">
+                <card-item-extend *ngIf="item.title" [item]="item"></card-item-extend>
+                <card-item *ngIf="!item.title" [item]="item"></card-item>
         </div>
     </div>
 </div>

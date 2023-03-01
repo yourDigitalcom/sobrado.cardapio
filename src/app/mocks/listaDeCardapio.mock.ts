@@ -7,13 +7,13 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/marca-ziggy.png",
                 "title": "Essência Ziggy",
-                "description": "Tropical - Banana Tropical - Morango Laranja - Frutti - Melancia - Uva - 7 Belo - Manga",
+                "description": "Tropical | Banana Tropical | Morango com Laranja | Frutti | Melancia | Uva | 7 Belo | Manga",
                 "value": 40
             },
             {
                 "img": "/assets/images/cardapio/essencia-magic.png",
                 "title": "Essência Magic",
-                "description": "Pêssego - Goiaba",
+                "description": "Pêssego | Goiaba",
                 "value": 40
             },
             {
@@ -84,13 +84,13 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/varios-gin-taca.png",
                 "title": "Taças de Gin",
-                "description": "Tropical - Melancia - Morango - Tônica",
+                "description": "Tropical | Melancia | Morango | Tônica",
                 "value": 40
             },
             {
                 "img": "/assets/images/cardapio/caipirinha-varias.png",
                 "title": "Caipirinhas",
-                "description": "Morango - Abacaxi - Kiwi - Limão - Melancia",
+                "description": "Morango | Abacaxi | Kiwi | Limão | Melancia",
                 "value": 30
             },
         ]
@@ -365,7 +365,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/comidas/mini-hamburguer.jpeg",
                 "title": "Mini Hamburguer",
-                "description": "1 Salad 1 Picles, 1 Clássico, 1 Kids",
+                "description": "1 Salad | 1 Picles | 1 Clássico | 1 Kids.",
                 "value": 40
             },
         ]

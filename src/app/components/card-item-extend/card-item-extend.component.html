@@ -1,10 +1,18 @@
-<div *ngIf="item" class="card shadow rounded h-100" [style.width.px]="155" [style.max-width.px]="185" [style.min-width.px]="155">
-    <img [src]="item.img" class="card-img-top" alt="...">
-    <div class="card-body border-top">
-        <h6> {{ item.title }} </h6>
-        <p class="card-title-description" [style.color]="'#6c757d'"> {{ item.description }} </p>
-        <h6>
-            {{ item.value | currency:'BRL':'symbol'}}
-        </h6>
+<div *ngIf="item" class="card shadow rounded h-100">
+    <div class="d-flex">
+        <div>
+            <img [src]="item.img" class="card-img-top" alt="...">
+        </div>
+        <div class="py-2 w-100">
+            <div class="d-flex col justify-content-between">
+                <h6> {{ item.title }} </h6>
+                <h6>
+                    {{ item.value | currency:'BRL':'symbol'}}
+                </h6>
+            </div>
+            <div class="col">
+                <p class="card-title-description m-0" [style.color]="'#6c757d'" [style.font-size.px]="14"> {{ item.description }} </p>
+            </div>
+        </div>
     </div>
 </div>
