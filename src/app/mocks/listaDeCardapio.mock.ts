@@ -378,6 +378,12 @@ export const listaCardapios = [
                 "description": "1 Salad | 1 Picles | 1 Clássico | 1 Kids.",
                 "value": 40
             },
+            {
+                "img": "/assets/images/cardapio/comidas/pop-chicken.jpeg",
+                "title": "Pop Chicken",
+                "description": "Iscas de frango cobertas com cheddar, bacon, barbecue e parmesão",
+                "value": 55
+            },
         ]
     }
 ]
