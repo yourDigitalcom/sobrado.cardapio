@@ -7,7 +7,7 @@ export const listaCardapios = [
             {
                 "img": "/assets/images/cardapio/marca-ziggy.png",
                 "title": "Essência Ziggy",
-                "description": "Tropical | Banana Tropical | Morango com Laranja | Frutti | Melancia | Uva | 7 Belo | Manga",
+                "description": "Tropical | Banana Tropical | Morango com Laranja | Frutti | Melancia | 7 Belo | Manga",
                 "value": 40
             },
             {
@@ -26,6 +26,12 @@ export const listaCardapios = [
                 "img": "/assets/images/cardapio/essencia-zommo.png",
                 "title": "Essência Zommo",
                 "description": "Menta",
+                "value": 40
+            },
+            {
+                "img": "/assets/images/cardapio/essencia-onix.png",
+                "title": "Essência Onix",
+                "description": "Manga | Pêra | Uva",
                 "value": 40
             },
         ]
