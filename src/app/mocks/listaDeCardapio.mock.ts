@@ -289,6 +289,11 @@ export const listaCardapios = [
                 "description": "Dose Jack Daniel's",
                 "value": 35
             },
+            {
+                "img": "/assets/images/cardapio/doses/dose-licor43-2.png",
+                "description": "Dose Licor 43",
+                "value": 25
+            },
         ]
     },
     {
