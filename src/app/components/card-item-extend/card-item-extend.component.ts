@@ -1,10 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { CardItem } from '../../models/card-item.model';
 
-export class CardItem {
-  public img: string;
-  public description: string;
-  public value: number;
-}
 
 @Component({
   selector: 'card-item-extend',

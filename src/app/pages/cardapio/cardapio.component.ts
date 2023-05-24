@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { CardMenu } from '../../components/card-menu/card-menu.component';
-import { CardItem } from '../../components/card-item/card-item.component';
 import { UtilService } from '../../services/utils/util.service';
 import { listaCardapios } from '../../mocks/listaDeCardapio.mock';
+import { CardMenu } from '../../models/card-menu.model';
+import { CardItem } from '../../models/card-item.model';
+import { MenuSelected } from '../../models/menu-selected.model';
 
 @Component({
   selector: 'app-cardapio',
@@ -28,6 +29,8 @@ export class CardapioComponent implements OnInit {
 
   public valueTesteMoeda: number = 100.30;
 
+  public extend: boolean = false
+
   constructor(
     private readonly util: UtilService
   ) { }
@@ -37,12 +40,13 @@ export class CardapioComponent implements OnInit {
 
   public receiverClick(product: string): void {
     const route = product;
-    const teste = 'teste';
     this.util.goToPage(route);
   }
 
-  public menuSelected(items: Array<CardItem>): void {
-    this.listItems = items;
+  public menuSelected(selected: MenuSelected): void {
+    this.extend = selected.title;
+    this.listItems = selected.itens;
+    
   }
 
 }

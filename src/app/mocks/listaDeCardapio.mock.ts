@@ -1,40 +1,11 @@
+import { itensEssencias } from "./essencias.mock";
 
 export const listaCardapios = [
     {
         "menu": "Sessão Rosh",
         "selected": true,
-        "itens": [
-            {
-                "img": "/assets/images/cardapio/marca-ziggy.png",
-                "title": "Essência Ziggy",
-                "description": "Tropical | Banana Tropical | Morango com Laranja | Frutti | Melancia | 7 Belo | Manga",
-                "value": 40
-            },
-            {
-                "img": "/assets/images/cardapio/essencia-magic.png",
-                "title": "Essência Magic",
-                "description": "Pêssego | Goiaba",
-                "value": 40
-            },
-            {
-                "img": "/assets/images/cardapio/essencia-adalya.png",
-                "title": "Essência Adalya",
-                "description": "Love 66",
-                "value": 40
-            },
-            {
-                "img": "/assets/images/cardapio/essencia-zommo.png",
-                "title": "Essência Zommo",
-                "description": "Menta",
-                "value": 40
-            },
-            {
-                "img": "/assets/images/cardapio/essencia-onix.png",
-                "title": "Essência Onix",
-                "description": "Manga | Pêra | Uva",
-                "value": 40
-            },
-        ]
+        "itens": itensEssencias,
+        "title": "Sabores"
     },
     {
         "menu": "Cervejas",
