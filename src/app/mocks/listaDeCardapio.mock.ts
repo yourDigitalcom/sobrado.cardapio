@@ -1,3 +1,6 @@
+import { itensBaldeCerveja, itensCervejaLongNeck } from "./cervejas.mock";
+import { itensComidas } from "./comidas.mock";
+import { itensCaipirinha, itensGin } from "./drinks.mock";
 import { itensEssencias } from "./essencias.mock";
 
 export const listaCardapios = [
@@ -5,71 +8,47 @@ export const listaCardapios = [
         "menu": "Sessão Rosh",
         "selected": true,
         "itens": itensEssencias,
-        "title": "Sabores"
+        "title": "Sabores",
+        "subMenus": [
+            {
+                "title": "Sabores",
+                "itens": itensEssencias,
+                "cardExtend": false
+            }
+        ]
     },
     {
         "menu": "Cervejas",
         "selected": false,
-        "itens": [
+        "itens": itensComidas,
+        "subMenus": [
             {
-                "img": "/assets/images/cardapio/cervejas/cerveja-corona-330.jpeg",
-                "description": "Cerveja Corona Extra 330ml UN.",
-                "value": 15
-            },
-
-            {
-                "img": "/assets/images/cardapio/cervejas/cerveja-stella-330.jpeg",
-                "description": "Stella Artois 330ml UN.",
-                "value": 15
+                "title": "Unidade",
+                "itens": itensCervejaLongNeck,
+                "cardExtend": false
             },
             {
-                "img": "/assets/images/cardapio/cervejas/cerveja-heineken-330.jpeg",
-                "description": "Heineken 330ml UN.",
-                "value": 15
-            },
-            {
-                "img": "/assets/images/cardapio/cervejas/cerveja-bud-330.jpeg",
-                "description": "Budweiser 330ml UN.",
-                "value": 12
-            },
-            {
-                "img": "/assets/images/cardapio/cervejas/balde-corona.png",
-                "description": "Balde Cerveja Corona Extra 330ml 6 UN.",
-                "value": 75
-            },
-            {
-                "img": "/assets/images/cardapio/cervejas/balde-heineken.png",
-                "description": "Balde Heineken 330ml 6 UN.",
-                "value": 75
-            },
-            {
-                "img": "/assets/images/cardapio/cervejas/balde-stella.jpeg",
-                "description": "Balde Stella Artois 330ml 6 UN.",
-                "value": 75
-            },
-            {
-                "img": "/assets/images/cardapio/cervejas/balde-bud.jpeg",
-                "description": "Balde Budweiser 330ml 6 UN.",
-                "value": 60
-            },
+                "title": "Balde",
+                "itens": itensBaldeCerveja,
+                "cardExtend": false
+            }
         ]
     },
     {
         "menu": "Drinks",
         "selected": false,
-        "itens": [
+        "itens": itensGin,
+        "subMenus": [
             {
-                "img": "/assets/images/cardapio/varios-gin-taca.png",
-                "title": "Taças de Gin",
-                "description": "Tropical | Melancia | Morango | Tônica",
-                "value": 40
+                "title": "Gin",
+                "itens": itensGin,
+                "cardExtend": false
             },
             {
-                "img": "/assets/images/cardapio/caipirinha-varias.png",
-                "title": "Caipirinhas",
-                "description": "Morango | Abacaxi | Kiwi | Limão | Melancia",
-                "value": 30
-            },
+                "title": "Caipirinha",
+                "itens": itensCaipirinha,
+                "cardExtend": false
+            }
         ]
     },
     {
@@ -288,32 +267,32 @@ export const listaCardapios = [
             },
         ]
     },
-    {
-        "menu": "Refrigerantes",
-        "selected": false,
-        "itens": [
-            {
-                "img": "/assets/images/cardapio/coca-lata.png",
-                "description": "Coca Cola 350ml",
-                "value": 6.5
-            },
-            {
-                "img": "/assets/images/cardapio/guarana-lata.png",
-                "description": "Guaraná Antarctica 350ml",
-                "value": 6.5
-            },
-            {
-                "img": "/assets/images/cardapio/fanta-uva.png",
-                "description": "Fanta Uva 350ml",
-                "value": 6.5
-            },
-            {
-                "img": "/assets/images/cardapio/fanta-laranja.png",
-                "description": "Fanta Laranja 350ml",
-                "value": 6.5
-            },
-        ]
-    },
+    // {
+    //     "menu": "Refrigerantes",
+    //     "selected": false,
+    //     "itens": [
+    //         {
+    //             "img": "/assets/images/cardapio/coca-lata.png",
+    //             "description": "Coca Cola 350ml",
+    //             "value": 6.5
+    //         },
+    //         {
+    //             "img": "/assets/images/cardapio/guarana-lata.png",
+    //             "description": "Guaraná Antarctica 350ml",
+    //             "value": 6.5
+    //         },
+    //         {
+    //             "img": "/assets/images/cardapio/fanta-uva.png",
+    //             "description": "Fanta Uva 350ml",
+    //             "value": 6.5
+    //         },
+    //         {
+    //             "img": "/assets/images/cardapio/fanta-laranja.png",
+    //             "description": "Fanta Laranja 350ml",
+    //             "value": 6.5
+    //         },
+    //     ]
+    // },
     {
         "menu": "Não Alcoólicos",
         "selected": false,
@@ -347,25 +326,45 @@ export const listaCardapios = [
                 "img": "/assets/images/cardapio/tonica.png",
                 "description": "Água Tônica",
                 "value": 6.50
-            }
+            },
+            {
+                "img": "/assets/images/cardapio/coca-lata.png",
+                "description": "Coca Cola 350ml",
+                "value": 6.5
+            },
+            {
+                "img": "/assets/images/cardapio/guarana-lata.png",
+                "description": "Guaraná Antarctica 350ml",
+                "value": 6.5
+            },
+            {
+                "img": "/assets/images/cardapio/fanta-uva.png",
+                "description": "Fanta Uva 350ml",
+                "value": 6.5
+            },
+            {
+                "img": "/assets/images/cardapio/fanta-laranja.png",
+                "description": "Fanta Laranja 350ml",
+                "value": 6.5
+            },
         ]
     },
-    {
-        "menu": "Comidas",
-        "selected": false,
-        "itens": [
-            {
-                "img": "/assets/images/cardapio/comidas/mini-hamburguer.jpeg",
-                "title": "Mini Hamburguer",
-                "description": "1 Salad | 1 Picles | 1 Clássico | 1 Kids.",
-                "value": 40
-            },
-            {
-                "img": "/assets/images/cardapio/comidas/pop-chicken.jpeg",
-                "title": "Pop Chicken",
-                "description": "Iscas de frango cobertas com cheddar, bacon, barbecue e parmesão",
-                "value": 55
-            },
-        ]
-    }
+    // {
+    //     "menu": "Comidas",
+    //     "selected": false,
+    //     "itens": [
+    //         {
+    //             "img": "/assets/images/cardapio/comidas/mini-hamburguer.jpeg",
+    //             "title": "Mini Hamburguer",
+    //             "description": "1 Salad | 1 Picles | 1 Clássico | 1 Kids.",
+    //             "value": 40
+    //         },
+    //         {
+    //             "img": "/assets/images/cardapio/comidas/pop-chicken.jpeg",
+    //             "title": "Pop Chicken",
+    //             "description": "Iscas de frango cobertas com cheddar, bacon, barbecue e parmesão",
+    //             "value": 55
+    //         },
+    //     ]
+    // },
 ]

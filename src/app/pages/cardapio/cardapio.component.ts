@@ -29,7 +29,9 @@ export class CardapioComponent implements OnInit {
 
   public valueTesteMoeda: number = 100.30;
 
-  public extend: boolean = false
+  public extend: boolean = false;
+
+  public subMenuSelected: CardItem;
 
   constructor(
     private readonly util: UtilService
@@ -43,9 +45,16 @@ export class CardapioComponent implements OnInit {
     this.util.goToPage(route);
   }
 
-  public menuSelected(selected: MenuSelected): void {
-    this.extend = selected.title;
-    this.listItems = selected.itens;
+  public menuSelected(selected: CardItem): void {
+
+    // console.log('listMenu', this.listMenu);
+    
+    console.log('menuSelected', selected);
+
+    this.subMenuSelected = selected;
+    
+    // this.extend = selected.title;
+    // this.listItems = selected.itens;
     
   }
 

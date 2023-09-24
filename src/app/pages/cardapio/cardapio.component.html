@@ -1,5 +1,5 @@
 <header-menu></header-menu>
-<div class="container p-0" style="max-width: 750px;">
+<div class="container p-0 m-0" style="max-width: 750px;">
     <!-- <div class="mt-3">
         <lista></lista>
     </div> -->
@@ -7,38 +7,56 @@
     <div class="col my-2">
         <card-menu [listMenu]="listMenu" (menuSelected)="menuSelected($event)"></card-menu>
     </div>
-    <!-- <div class="row col-12 p-0 m-0">
-        <div *ngFor="let card of list" class="col-6 m-0 p-2">
-            <app-menu [name]="card?.name" (clickEmmiter)="receiverClick(card?.route)"></app-menu>
-        </div>
-    </div> -->
 
-    <!-- <div class="card shadow rounded" [style.max-width.px]="155">
-        <img [style.width.px]="150" src="/assets/images/cervejas/corona-330.jpg" class="card-img-top" alt="...">
-        <div class="card-body border-top">
-            <p class="card-title-description" [style.color]="'#6c757d'"> Cerveja Corona Extra 330ml </p>
-            <h6>
-                {{valueTesteMoeda | currency:'BRL':'symbol'}}
-            </h6>
-        </div>
-    </div> -->
+    <div *ngIf="subMenuSelected" class="col pb-4">
 
+        <div *ngIf="!subMenuSelected?.subMenus">
+            <!-- {{subMenuSelected | json}} -->
+            <!-- <div *ngFor="let item of subMenuSelected.itens" >
+                <div class="mr-2 h-100" [style.min-width.px]="130">
+                    <card-item [item]="item"></card-item>
+                </div>
+            </div> -->
 
+            <div class="row px-2">
 
-    <div class="" [ngClass]="{ 'd-flex p-2 overflow-auto': !extend}">
+                <div class="col-6 p-0 pb-2" *ngFor="let item of subMenuSelected.itens">
 
-        <!-- <div *ngFor="let item of listItems" class="" [ngClass]="{ 'w-100 pb-3 px-2': item.title, 'col-6 p-2': !item.title }">
-                <card-item-extend *ngIf="item.title" [item]="item"></card-item-extend>
-                <card-item *ngIf="!item.title" [item]="item"></card-item>
-        </div> -->
-
-        <div *ngFor="let item of listItems" >
-            <div *ngIf="item.title" class="m-2">
-                <card-item-extend  [item]="item"></card-item-extend>
+                    <div class="h-100 m-1" [style.min-width.px]="130">
+                        <card-item [item]="item"></card-item>
+                    </div>
+                </div>
             </div>
-            <div *ngIf="!item.title" class="h-100 m-2" [style.min-width.px]="130">
-                <card-item  [item]="item"></card-item>
+        </div>
+
+
+        <div class="" *ngFor="let subMenu of subMenuSelected?.subMenus">
+            <div class="d-flex justify-content-between align-items-center my-2">
+                <div class="w-100">
+                    <hr [style.opacity]="1" [style.border-style]="'dotted'">
+                </div>
+                <div>
+                    <p class="px-3 m-0">
+                        {{ subMenu.title }}
+                    </p>
+                </div>
+                <div class="w-100">
+                    <hr [style.opacity]="1" [style.border-style]="'dotted'">
+                </div>
             </div>
+
+
+            <div *ngIf="!subMenu.cardExtend" class="d-flex overflow-auto">
+
+                <div *ngFor="let item of subMenu.itens">
+                    <div class="mr-2 h-100" [style.min-width.px]="130">
+                        <card-item [item]="item"></card-item>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
+
 </div>

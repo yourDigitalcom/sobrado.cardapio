@@ -18,7 +18,7 @@ export class CardMenuComponent {
 
   private _listMenu: Array<CardMenu>;
 
-  @Output() public menuSelected: EventEmitter<MenuSelected> = new EventEmitter();
+  @Output() public menuSelected: EventEmitter<any> = new EventEmitter();
 
   @Input() public set listMenu(value: Array<CardMenu>) {
     this._listMenu = value;
@@ -34,7 +34,9 @@ export class CardMenuComponent {
       card.selected = i === index ? true : false;
     });
     const itemSelected = this.listMenu[index].itens.some(value => value.title);
-    this.menuSelected.emit(new MenuSelected(this.listMenu[index].itens, itemSelected));
+    console.log('itemSelected', this.listMenu[index]);
+    
+    this.menuSelected.emit(this.listMenu[index]);
   }
 
   public selectedCard(index: number): boolean {
