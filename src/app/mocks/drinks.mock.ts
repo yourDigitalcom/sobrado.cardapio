@@ -26,27 +26,27 @@ export const itensCaipirinha = [
     {
         "img": "/assets/images/cardapio/drinks/caipirinha/caipirinha-limao.jpg",
         "description": "Caipirinha de Limão",
-        "value": 35
+        "value": 30
     },
     {
         "img": "/assets/images/cardapio/drinks/caipirinha/caipirinha-melancia-2.jpg",
         "description": "Caipirinha de Melancia",
-        "value": 35
+        "value": 30
     },
     {
         "img": "/assets/images/cardapio/drinks/caipirinha/caipirinha-morango-2.jpg",
         "description": "Caipirinha de Morango",
-        "value": 35
+        "value": 30
     },
     {
         "img": "/assets/images/cardapio/drinks/caipirinha/caipirinha-kiwi.jpg",
         "description": "Caipirinha de Kiwi",
-        "value": 35
+        "value": 30
     },
     {
         "img": "/assets/images/cardapio/drinks/caipirinha/caipirinha-laranja.jpg",
         "description": "Caipirinha de Laranja",
-        "value": 35
+        "value": 30
     },
     
 ];
